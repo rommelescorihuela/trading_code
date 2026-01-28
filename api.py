@@ -6,9 +6,9 @@ app = FastAPI()
 
 def get_db_connection():
     return psycopg2.connect(
-        dbname="trading_db",
-        user="innovacion2",
-        password="tu_password",
+        dbname="trading_data",
+        user="postgres",
+        password="postgres",
         host="localhost"
     )
 
